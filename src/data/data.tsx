@@ -74,7 +74,7 @@ export const heroData: Hero = {
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         I'm an <strong className="text-stone-100">IT Technician / Web Developer / Software Developer</strong>, currently working
-        an <strong className="text-stone-100">IT related task</strong> helping build a modernize system for campus.
+        an <strong className="text-stone-100">IT related tasks</strong> helping build a modernize system for campus.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         In my free time time, you can catch me training in <strong className="text-stone-100">Muay Thai</strong>,
@@ -125,15 +125,15 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'English',
-        level: 10,
+        level: 7,
       },
       {
         name: 'Tagalog',
-        level: 4,
+        level: 8,
       },
       {
         name: 'Bisaya',
-        level: 3,
+        level: 10,
       },
     ],
   },
@@ -141,16 +141,12 @@ export const skills: SkillGroup[] = [
     name: 'Frontend development',
     skills: [
       {
-        name: 'React',
-        level: 9,
+        name: 'HTML, CSS',
+        level: 8,
       },
       {
-        name: 'Typescript',
+        name: 'WordPress',
         level: 7,
-      },
-      {
-        name: 'GraphQL',
-        level: 6,
       },
     ],
   },
@@ -159,32 +155,20 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'Node.js',
-        level: 8,
+        level: 7,
       },
       {
-        name: 'Rust',
-        level: 5,
-      },
-      {
-        name: 'Golang',
-        level: 4,
-      },
+        name: 'Php',
+        level: 6,
+      }
     ],
   },
   {
     name: 'Mobile development',
     skills: [
       {
-        name: 'React Native',
-        level: 9,
-      },
-      {
         name: 'Flutter',
-        level: 4,
-      },
-      {
-        name: 'Swift',
-        level: 3,
+        level: 7,
       },
     ],
   },
