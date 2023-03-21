@@ -106,12 +106,12 @@ export const aboutData: About = {
   user-friendly software. I'm always eager to learn new technologies and techniques. I pride myself on my ability to adapt quickly to new challenges and 
   environments. When I'm not coding, I enjoy playing various sports and engaging with people. Let's work together to create something amazing!`,
   aboutItems: [
-    {label: 'Location', text: 'Bohol, PH', Icon: MapIcon},
-    {label: 'Age', text: '23', Icon: CalendarIcon},
-    {label: 'Nationality', text: 'Filipino', Icon: FlagIcon},
-    {label: 'Interests', text: 'Anime, Track & Field Events, Singing, Games', Icon: SparklesIcon},
-    {label: 'Study', text: 'Bohol Island State University-Bilar Campus', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'Bohol Island State University-Bilar Campus.', Icon: OfficeBuildingIcon},
+    { label: 'Location', text: 'Bohol, PH', Icon: MapIcon },
+    { label: 'Age', text: '23', Icon: CalendarIcon },
+    { label: 'Nationality', text: 'Filipino', Icon: FlagIcon },
+    { label: 'Interests', text: 'Anime, Track & Field Events, Singing, Games', Icon: SparklesIcon },
+    { label: 'Study', text: 'Bohol Island State University-Bilar Campus', Icon: AcademicCapIcon },
+    { label: 'Employment', text: 'Bohol Island State University-Bilar Campus.', Icon: OfficeBuildingIcon },
   ],
 };
 
@@ -234,32 +234,32 @@ export const portfolioItems: PortfolioItem[] = [
     image: porfolioImage5,
   },
   {
-    title: 'Project title 6',
-    description: 'Give a short description of your project here.',
+    title: 'Alburquerque Website',
+    description: 'My hometown website which I made during my college studies',
     url: 'https://timbaker.me',
     image: porfolioImage6,
   },
   {
-    title: 'Project title 7',
-    description: 'Give a short description of your project here.',
+    title: 'BISU-Bilar Contact Tracing System',
+    description: 'A production system which is use in the campus for contact tracing using QR Code Scanning.',
     url: 'https://timbaker.me',
     image: porfolioImage7,
   },
   {
-    title: 'Project title 8',
-    description: 'Give a short description of your project here.',
+    title: 'BagHub',
+    description: 'An online shopping mobile application for Different Bag Accessories.',
     url: 'https://timbaker.me',
     image: porfolioImage8,
   },
   {
-    title: 'Project title 9',
+    title: 'Bohol Cacao Industry Information System',
     description: 'Give a short description of your project here.',
     url: 'https://timbaker.me',
     image: porfolioImage9,
   },
   {
-    title: 'Project title 10',
-    description: 'Give a short description of your project here.',
+    title: 'Massage Reservation System',
+    description: 'A reservation system which I made during my college studies',
     url: 'https://timbaker.me',
     image: porfolioImage10,
   },
@@ -285,11 +285,11 @@ export const education: TimelineItem[] = [
     date: '2018 - 2022',
     location: 'Bachelor of Science in Computer Science',
     title: 'What did you learn of the course?',
-    content: <p>As a computer science student, I gained hands-on experience in various programming languages and technologies, 
-      including Java, C, C++ HTML, CSS, Php etc.. I also collaborated with classmates on a variety 
-      of projects, including Web Development and Desktop Development. Through these experiences, I developed 
-      a strong foundation in software development principles and learned how to apply them to real-world problems. I'm excited to 
-      continue building on this foundation as I begin my career in the field..</p>,
+    content: <p>As a computer science student, I gained hands-on experience in various programming languages and technologies,
+      including Java, C, C++ HTML, CSS, Php etc.. I also collaborated with classmates on a variety
+      of projects, including Web Development and Desktop Development. Through these experiences, I developed
+      a strong foundation in software development principles and learned how to apply them to real-world problems. I'm excited to
+      continue building on this foundation as I begin my career in the field.</p>,
   },
 ];
 
@@ -357,12 +357,12 @@ export const contact: ContactSection = {
     {
       type: ContactType.Instagram,
       text: '@benjieestal',
-      href: 'https://www.instagram.com/tbakerx/',
+      href: 'https://www.instagram.com/benjieestal?igshid=ZDdkNTZiNTM=/',
     },
     {
       type: ContactType.Github,
       text: 'benjieestal7',
-      href: 'https://github.com/tbakerx',
+      href: 'https://github.com/benjieestal7',
     },
   ],
 };
@@ -371,9 +371,9 @@ export const contact: ContactSection = {
  * Social items
  */
 export const socialLinks: Social[] = [
-  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/tbakerx'},
-  {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
-  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/timbakerx/'},
-  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/tbakerx/'},
-  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/TimBakerx'},
+  { label: 'Github', Icon: GithubIcon, href: 'https://github.com/benjieestal7' },
+  { label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker' },
+  { label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/benjie-estal-617b95244?original_referer=' },
+  { label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/benjieestal?igshid=ZDdkNTZiNTM=/' },
+  { label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/TimBakerx' },
 ];
