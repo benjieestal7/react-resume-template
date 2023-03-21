@@ -13,7 +13,7 @@ import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
 import TwitterIcon from '../components/Icon/TwitterIcon';
-import heroImage from '../images/header-background.webp';
+import heroImage from '../images/CODEBG.jpg';
 import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
 import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
@@ -25,7 +25,7 @@ import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
 import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
 import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
 import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
-import profilepic from '../images/profilepic.jpg';
+import BISU from '../images/BISU.jpg';
 import testimonialImage from '../images/testimonial.webp';
 import {
   About,
@@ -73,13 +73,12 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm an <strong className="text-stone-100">IT Technician / Web Developer / Software Developer</strong>, currently working
-        an <strong className="text-stone-100">IT related tasks</strong> helping build a modernize system for campus.
+        I'm an <strong className="text-stone-100">IT Technician / Software Engineer</strong>, currently working
+        a well-rounded <strong className="text-stone-100">IT related tasks</strong> helping build a modernize system for campus.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me training in <strong className="text-stone-100">Muay Thai</strong>,
-        plucking my <strong className="text-stone-100">banjo</strong>, or exploring beautiful{' '}
-        <strong className="text-stone-100">Vancouver Island</strong>.
+        In my free time time, you can connect with me through <strong className="text-stone-100">Facebook</strong>,
+        or <strong className="text-stone-100">Instagram</strong>, You can chat or talk to me if you want someone to listen to, either personal or work related I would love to.
       </p>
     </>
   ),
@@ -102,17 +101,17 @@ export const heroData: Hero = {
  * About section
  */
 export const aboutData: About = {
-  profileImageSrc: profilepic,
-  description: `Use this bio section as your way of describing yourself and saying what you do, what technologies you like
-  to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
-  in.`,
+  profileImageSrc: BISU,
+  description: `Welcome to my website! I'm a software engineer with a passion for building high-quality, 
+  user-friendly software. I'm always eager to learn new technologies and techniques. I pride myself on my ability to adapt quickly to new challenges and 
+  environments. When I'm not coding, I enjoy playing various sports and engaging with people. Let's work together to create something amazing!`,
   aboutItems: [
     {label: 'Location', text: 'Bohol, PH', Icon: MapIcon},
     {label: 'Age', text: '23', Icon: CalendarIcon},
     {label: 'Nationality', text: 'Filipino', Icon: FlagIcon},
     {label: 'Interests', text: 'Anime, Track & Field Events, Singing, Games', Icon: SparklesIcon},
     {label: 'Study', text: 'Bohol Island State University-Bilar Campus', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'Instant Domains, inc.', Icon: OfficeBuildingIcon},
+    {label: 'Employment', text: 'Bohol Island State University-Bilar Campus.', Icon: OfficeBuildingIcon},
   ],
 };
 
@@ -138,7 +137,24 @@ export const skills: SkillGroup[] = [
     ],
   },
   {
-    name: 'Frontend development',
+    name: 'Desktop development',
+    skills: [
+      {
+        name: 'C#',
+        level: 7,
+      },
+      {
+        name: 'VB.NET',
+        level: 7,
+      },
+      {
+        name: 'DEVEXPRESS.CS',
+        level: 7,
+      },
+    ],
+  },
+  {
+    name: 'Web development',
     skills: [
       {
         name: 'HTML, CSS',
@@ -172,6 +188,15 @@ export const skills: SkillGroup[] = [
       },
     ],
   },
+  {
+    name: 'Game development',
+    skills: [
+      {
+        name: 'Scratch',
+        level: 7,
+      },
+    ],
+  },
 ];
 
 /**
@@ -185,9 +210,9 @@ export const portfolioItems: PortfolioItem[] = [
     image: porfolioImage1,
   },
   {
-    title: 'Project title 2',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    title: 'FighVac',
+    description: 'It is a survival game, a concept of Covid-19 which relates to zombie shooting game',
+    url: 'https://fightvac.benjieestal.repl.co/',
     image: porfolioImage2,
   },
   {
@@ -203,8 +228,8 @@ export const portfolioItems: PortfolioItem[] = [
     image: porfolioImage4,
   },
   {
-    title: 'Project title 5',
-    description: 'Give a short description of your project here.',
+    title: 'Nutrition Management System',
+    description: 'A unified system for the employees of the local government units of Bohol, including Health Monitoring System, Health Analyzer System for children.',
     url: 'https://timbaker.me',
     image: porfolioImage5,
   },
@@ -257,33 +282,36 @@ export const education: TimelineItem[] = [
     content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
   },
   {
-    date: 'March 2003',
-    location: 'School of Business',
-    title: 'What did you study 101',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    date: '2018 - 2022',
+    location: 'Bachelor of Science in Computer Science',
+    title: 'What did you learn of the course?',
+    content: <p>As a computer science student, I gained hands-on experience in various programming languages and technologies, 
+      including Java, C, C++ HTML, CSS, Php etc.. I also collaborated with classmates on a variety 
+      of projects, including Web Development and Desktop Development. Through these experiences, I developed 
+      a strong foundation in software development principles and learned how to apply them to real-world problems. I'm excited to 
+      continue building on this foundation as I begin my career in the field..</p>,
   },
 ];
 
 export const experience: TimelineItem[] = [
   {
-    date: 'March 2010 - Present',
-    location: 'Awesome Development Company',
-    title: 'Senior UX Engineer',
+    date: 'November 2022 - Present',
+    location: 'Bohol Island State University- Bilar Campus',
+    title: 'IT Technician/ Software Engineer',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        Analyze, plan, develop, create, implement, review, and monitor campus software projects and other IT related tasks.
       </p>
     ),
   },
   {
-    date: 'March 2007 - February 2010',
-    location: 'Garage Startup Studio',
-    title: 'Junior bug fixer',
+    date: 'August - September 2021',
+    location: 'BlendIT Tech Company',
+    title: 'Junior Flutter Developer (OJT)',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        Experience On Job Training in an Industry-based environment and Develop a Mobile application using Flutter Framework, Dart languange
+        and Firebase for Database.
       </p>
     ),
   },
@@ -296,19 +324,14 @@ export const testimonial: TestimonialSection = {
   imageSrc: testimonialImage,
   testimonials: [
     {
-      name: 'John Doe',
-      text: 'Use this as an opportunity to promote what it is like to work with you. High value testimonials include ones from current or past co-workers, managers, or from happy clients.',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/169.jpg',
+      name: 'Max Angelo D. Perin',
+      text: 'Sir Benjie is my Junior Software Engineer in Management Information System Unit, BISU- Bilar Campus, He is focused on what his doing, he can cope fast with learning new tools and technologies, especially in Software Development. For sure he will be a great asset to the company.',
+      image: 'https://i.postimg.cc/HsmyjPRW/perin.jpg',
     },
     {
-      name: 'Jane Doe',
-      text: 'Here you should write some nice things that someone has said about you. Encourage them to be specific and include important details (notes about a project you were on together, impressive quality produced, etc).',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/14.jpg',
-    },
-    {
-      name: 'Someone else',
-      text: 'Add several of these, and keep them as fresh as possible, but be sure to focus on quality testimonials with strong highlights of your skills/work ethic.',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/69.jpg',
+      name: 'Darrel A. Cardaña',
+      text: 'Benjie has shown exceptional skills and talent in programming throughout our course. His dedication and hard work have consistently resulted in high-quality code and successful projects. It has been a pleasure to have him as a student, and I am confident that he will continue to excel in his programming career.',
+      image: 'https://i.postimg.cc/jq1J4SD5/darrel.jpg',
     },
   ],
 };
@@ -319,26 +342,26 @@ export const testimonial: TestimonialSection = {
 
 export const contact: ContactSection = {
   headerText: 'Get in touch.',
-  description: 'Here is a good spot for a message to your readers to let them know how best to reach out to you.',
+  description: 'You can reach me out and connect through the following: ',
   items: [
     {
       type: ContactType.Email,
-      text: 'reachout@timbaker.me',
-      href: 'mailto:reachout@timbaker.me',
+      text: 'benjieestal9@gmail.com',
+      href: 'mailto:benjieestal9@gmail.com',
     },
     {
       type: ContactType.Location,
-      text: 'Victoria BC, Canada',
+      text: 'Alburquerque Bohol, Philippines',
       href: 'https://www.google.ca/maps/place/Victoria,+BC/@48.4262362,-123.376775,14z',
     },
     {
       type: ContactType.Instagram,
-      text: '@tbakerx',
+      text: '@benjieestal',
       href: 'https://www.instagram.com/tbakerx/',
     },
     {
       type: ContactType.Github,
-      text: 'tbakerx',
+      text: 'benjieestal7',
       href: 'https://github.com/tbakerx',
     },
   ],
