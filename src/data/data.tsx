@@ -11,8 +11,7 @@ import {
 import GithubIcon from '../components/Icon/GithubIcon';
 import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
-import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
-import TwitterIcon from '../components/Icon/TwitterIcon';
+import FacebookIcon from '../components/Icon/FacebookIcon';
 import heroImage from '../images/CODEBG.jpg';
 import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
@@ -372,8 +371,7 @@ export const contact: ContactSection = {
  */
 export const socialLinks: Social[] = [
   { label: 'Github', Icon: GithubIcon, href: 'https://github.com/benjieestal7' },
-  { label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker' },
+  { label: 'Facebook', Icon: FacebookIcon, href: 'https://www.facebook.com/benjie.estal/' },
   { label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/benjie-estal-617b95244?original_referer=' },
   { label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/benjieestal?igshid=ZDdkNTZiNTM=/' },
-  { label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/TimBakerx' },
 ];
